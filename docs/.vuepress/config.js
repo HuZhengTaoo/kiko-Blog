@@ -1,33 +1,19 @@
-const testItem = [
-    { text: 'Chinese', link: '/language/chinese/' },
-    { text: 'Japanese', link: '/language/japanese/' }
-  ]
+
 
 module.exports = {
     title: 'Hello VuePress',
     description: 'Just playing around',
-    configureWebpack: {
-        resolve: {
-          alias: {
-            '@imgs': './public/images'
-          }
-        }
-    },
+    
     themeConfig: {
+        base:'/',
         lastUpdated: 'Last Updated', 
         activeHeaderLinks: false,
         displayAllHeaders: true,
         nav: [
           { text: 'Home', link: '/' },
           { text: 'foo', link: '/foo/' },
-          { text: 'bar', link: '/bar/' },
-          {
-            text: 'Languages',
-            items: [
-              { text: 'Chinese', link: '/language/chinese/' },
-              { text: 'Japanese', items:testItem }
-            ]
-          }
+          { text: 'bar', link: '/bar/' }
+         
         ],
         sidebar: [
             {

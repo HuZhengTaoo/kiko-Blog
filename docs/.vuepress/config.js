@@ -3,7 +3,6 @@
 module.exports = {
     title: 'Hello VuePress',
     description: 'Just playing around',
-    
     themeConfig: {
         base:'/',
         lastUpdated: 'Last Updated', 

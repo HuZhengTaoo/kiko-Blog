@@ -1,2 +1,3 @@
-![An image](./.vuepress/public/images/icon.png)
+![An image](./.vuepress/public/icon.png)
+
 

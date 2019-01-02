@@ -1,38 +1,40 @@
 
 
 module.exports = {
-    title: 'Hello VuePress',
-    description: 'Just playing around',
+    title: 'npm里面加点糖',
+    head: [
+      ['link', { rel: 'icon',href: `/logo.jpeg` }]
+   ],
+    markdown: {
+      lineNumbers: true
+    },
     themeConfig: {
         base:'/',
         lastUpdated: 'Last Updated', 
         activeHeaderLinks: false,
         displayAllHeaders: true,
         nav: [
-          { text: 'Home', link: '/' },
+          { text: '专题', items:[
+            {text:'javascript',link:'/javascript/'},
+            {text:'css',link:'/css/'},
+            {text:'vue',link:'/vue/'},
+            {text:'动画',link:'/animation/'},
+            {text:'node',link:'/node/'},
+            {text:'前端工程化',link:'/project/'},
+            {text:'http',link:'/http/'},
+            {text:'杂七杂八',link:'/anothers/'}
+           ] 
+          },
           { text: 'foo', link: '/foo/' },
           { text: 'bar', link: '/bar/' }
          
         ],
-        sidebar: [
-            {
-            title: 'home',
-            collapsable: false,
-            children: [
-              '/',
-              ['/about','haha'],
-              ['/contact','test']
-            ]
-          },
-          {
-            title: 'foo',
-            children: [
-                ['/foo/','niko'],
-                ['/foo/one','ouou'],
-                ['/foo/two','aa']
-            ]
-          }
-        ]
+        sidebar: {
+          '/javascript/':[
+            ['','js学习心得'],
+            ['es6','es6学习']
+          ]
+        }
     }     
   }
 

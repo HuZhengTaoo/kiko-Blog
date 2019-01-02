@@ -25,8 +25,13 @@ module.exports = {
             {text:'杂七杂八',link:'/anothers/'}
            ] 
           },
-          { text: 'foo', link: '/foo/' },
-          { text: 'bar', link: '/bar/' }
+          { text: '发表的文章', link: '/articles/' },
+          { text:'算法学习',link:'/algorithm/'},
+          { text: '其他链接', items:[
+            {
+              text:'gayhub',link:'https://github.com/HuZhengTaoo'
+            }
+          ] }
          
         ],
         sidebar: {

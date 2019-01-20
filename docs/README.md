@@ -1,8 +1,7 @@
 ---
 home: true
 heroImage: /logo.jpeg
-heroText: 前端学习笔记
+heroText: 爱棋道小程序文档
 actionText: GO AHEAD →
 actionLink: /javascript/
 ---
-<alink />

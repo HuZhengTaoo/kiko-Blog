@@ -34,10 +34,12 @@ module.exports = {
          
         ],
         sidebar: {
-          '/weapp/':[
-            ['','微信小程序注册流程'],
+          '/frontend/':[
+            ['','注册流程'],
+            ['configuration','后台配置'],
             ['publish','微信小程序发布流程'],
-            ['cowork','小程序如何多人写作开发']
+            ['cowork','小程序如何多人写作开发'],
+            ['account','账号管理']
           ],
           '/javascript/':[
             ['','js学习心得'],

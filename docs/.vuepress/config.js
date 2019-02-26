@@ -1,5 +1,4 @@
 
-
 module.exports = {
     title: '爱棋道技术组',
     head: [
@@ -34,12 +33,29 @@ module.exports = {
          
         ],
         sidebar: {
+          '/weapp/':[
+            ['','小程序的介绍']
+          ],
           '/frontend/':[
-            ['','注册流程'],
-            ['configuration','后台配置'],
-            ['publish','微信小程序发布流程'],
-            ['cowork','小程序如何多人写作开发'],
-            ['account','账号管理']
+            {
+              collapsable: false,
+              children:[
+                '',
+                'configuration',
+                'publish',
+                'cowork',
+                'account',
+                'assistant',
+                'preparation',
+                'plugin',
+                'utils',
+                'testplan',
+                'tobedone',
+                'catalog',
+                'standard',
+                'tools'
+              ]
+            }
           ],
           '/javascript/':[
             ['','js学习心得'],
@@ -56,5 +72,6 @@ module.exports = {
         }
     }     
   }
+ 
 
   

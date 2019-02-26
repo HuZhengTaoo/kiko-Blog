@@ -1,9 +1,12 @@
-### 注册流程注意事项
+
+# 注册流程
+
+## 注册流程注意事项
 - 微信小程序注册需要准备一个qq账号,每一个qq账号只能申请一个微信小程序号。**(请使用公司提供的手机码号注册,手机号码使用请向测试主管申请使用)**
     - [qq注册](https://ssl.zc.qq.com/v3/index-chs.html)
     - [小程序注册](https://mp.weixin.qq.com/)
 
-#### 小程序注册流程
+## 小程序注册流程
 
 - step1:  进入小程序注册官网，点击立即注册，帐号类型选择小程序
 ![step1](https://iqidao.oss-cn-shanghai.aliyuncs.com/static_resources/docs/WX20190225-182507.png)

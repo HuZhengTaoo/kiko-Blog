@@ -1,1 +1,2 @@
-algorithm
+[小程序官方开发指南](https://developers.weixin.qq.com/ebook?action=get_post_info&docid=0008aeea9a8978ab0086a685851c0a)
+[小程序介绍](https://developers.weixin.qq.com/miniprogram/introduction/#%E4%BA%A7%E5%93%81%E5%AE%9A%E4%BD%8D%E5%8F%8A%E5%8A%9F%E8%83%BD%E4%BB%8B%E7%BB%8D)

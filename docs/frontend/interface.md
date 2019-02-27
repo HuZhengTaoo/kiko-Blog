@@ -1,4 +1,4 @@
-# 已经开发的开发接口
+# 已经打通的开放接口
 
 ## [获取用户手机号码](https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/getPhoneNumber.html)
 

@@ -20,7 +20,7 @@ module.exports = {
           { text:'前端开发',link:'/frontend/'},
           { text: '其他人员须知', link: '/articles/' },
           { text: '项目汇总', items:[
-            {text:'启蒙小程序',link:'/javascript/'},
+            {text:'启蒙小程序',link:'/kid/'},
             {text:'爱棋道家长中心',link:'/css/'}
            ] 
           },
@@ -40,9 +40,10 @@ module.exports = {
             ['','小程序的介绍']
           ],
           '/frontend/':genSidebarConfig (),
-          '/javascript/':[
-            ['','js学习心得'],
-            ['es6','es6学习']
+          '/kid/':[
+            ['','项目简介'],
+            ['account','账号管理'],
+            ['verson1','第一版']
           ],
           '/articles/':[
             ['','全员须知'],
@@ -51,9 +52,6 @@ module.exports = {
             ['productor','产品'],
             ['designer','设计人员'],
             ['manager','项目经理']
-          ],
-          '/':[
-            ''
           ]
         }
     }     
@@ -72,7 +70,6 @@ module.exports = {
           'cowork',
           'account',
           'assistant',
-          'preparation',
           'plugin',
           'utils',
           'testplan',
@@ -83,7 +80,8 @@ module.exports = {
           'vantapp',
           'interface',
           'components',
-          'outofbox'
+          'outofbox',
+          'others'
         ]
       }
     ]

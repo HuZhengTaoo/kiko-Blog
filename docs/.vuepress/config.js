@@ -78,7 +78,8 @@ module.exports = {
           'standard',
           'tools',
           'vantapp',
-          'interface'
+          'interface',
+          'components'
         ]
       }
     ]

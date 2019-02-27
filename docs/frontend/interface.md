@@ -29,7 +29,7 @@ getPhoneNumber(event){
 }
 ```
 **效果**
-<img src="https://iqidao.oss-cn-shanghai.aliyuncs.com/static_resources/docs/WX20190227-124008%402x.png" width="200" hegiht="200" style="display:block"/>
+<img src="https://iqidao.oss-cn-shanghai.aliyuncs.com/static_resources/docs/WX20190227-124008%402x.png" width="400" hegiht="400" style="display:block"/>
 
 ## [消息通知](https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/template-message.html)
 
@@ -47,5 +47,5 @@ func TestSendTemplateMessage12
 ```
 
 **效果**
-<img src="https://iqidao.oss-cn-shanghai.aliyuncs.com/static_resources/docs/WX20190227-124731%402x.png" width="200" hegiht="200" style="display:block"/>
+<img src="https://iqidao.oss-cn-shanghai.aliyuncs.com/static_resources/docs/WX20190227-124731%402x.png" width="400" hegiht="400" style="display:block"/>
 

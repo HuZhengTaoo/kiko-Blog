@@ -29,12 +29,16 @@
     产品提供小程序名称,头像,介绍信息
 
 ![基本设置](https://iqidao.oss-cn-shanghai.aliyuncs.com/static_resources/docs/WX20190226-123323.png)
+:::danger
+ 在做微信小程序的后台配置:heavy_exclamation_mark: **基本信息** :heavy_exclamation_mark:的时候，一定要注意配置次数限制。
+:::
 
     需要后端在config表里面配置相应的appid和appscrect 
 
 ![开发设置](https://iqidao.oss-cn-shanghai.aliyuncs.com/static_resources/docs/WX20190226-123204.png)
 
-    配置合法域名
+    配置合法域名 
+     
 
 | 服务域名 |  网址|  
 | ------ | ------ |
@@ -55,6 +59,9 @@
 |  |https://test.iqidao.com  |
 
 ![开发设置](https://iqidao.oss-cn-shanghai.aliyuncs.com/static_resources/docs/WX20190226-123214.png)
+**业务域名(可以在小程序里面打开web-view),需要前端在配置过程中，把配置文件给后端(配置www,test环境)和测试(配置testing环境)**
+![开发设置](https://iqidao.oss-cn-shanghai.aliyuncs.com/static_resources/docs/WX20190227-135950.png)
+
 
 
 

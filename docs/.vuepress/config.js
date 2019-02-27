@@ -8,10 +8,13 @@ module.exports = {
       lineNumbers: true
     },
     themeConfig: {
-        base:'/',
-        lastUpdated: 'Last Updated', 
-        activeHeaderLinks: false,
-        displayAllHeaders: true,
+        sidebarDepth: 2,
+        lastUpdated: 'Last Updated',
+        serviceWorker: {
+          updatePopup: true
+        },
+        activeHeaderLinks: true,
+               
         nav: [
           { text:'微信小程序简介',link:'/weapp/'},
           { text:'前端开发',link:'/frontend/'},
@@ -79,10 +82,9 @@ module.exports = {
           'tools',
           'vantapp',
           'interface',
-          'components'
+          'components',
+          'outofbox'
         ]
       }
     ]
   }
-
-  

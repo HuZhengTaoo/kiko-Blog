@@ -36,27 +36,7 @@ module.exports = {
           '/weapp/':[
             ['','小程序的介绍']
           ],
-          '/frontend/':[
-            {
-              collapsable: false,
-              children:[
-                '',
-                'configuration',
-                'publish',
-                'cowork',
-                'account',
-                'assistant',
-                'preparation',
-                'plugin',
-                'utils',
-                'testplan',
-                'tobedone',
-                'catalog',
-                'standard',
-                'tools'
-              ]
-            }
-          ],
+          '/frontend/':genSidebarConfig (),
           '/javascript/':[
             ['','js学习心得'],
             ['es6','es6学习']
@@ -68,10 +48,40 @@ module.exports = {
             ['productor','产品'],
             ['designer','设计人员'],
             ['manager','项目经理']
+          ],
+          '/':[
+            ''
           ]
         }
     }     
   }
  
+
+  function genSidebarConfig () {
+    return [
+      {
+        title:'目录',
+        collapsable: false,
+        children:[
+          '',
+          'configuration',
+          'publish',
+          'cowork',
+          'account',
+          'assistant',
+          'preparation',
+          'plugin',
+          'utils',
+          'testplan',
+          'tobedone',
+          'catalog',
+          'standard',
+          'tools',
+          'vantapp',
+          'interface'
+        ]
+      }
+    ]
+  }
 
   

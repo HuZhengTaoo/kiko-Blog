@@ -25,8 +25,36 @@
 ![成员管理](https://iqidao.oss-cn-shanghai.aliyuncs.com/static_resources/docs/WX20190226-123015%402x.png)
 
 ## 开发设置
-     需要后端在config表里面配置相应的appid和appscrect 
+
+    产品提供小程序名称,头像,介绍信息
+
+![基本设置](https://iqidao.oss-cn-shanghai.aliyuncs.com/static_resources/docs/WX20190226-123323.png)
+
+    需要后端在config表里面配置相应的appid和appscrect 
+
 ![开发设置](https://iqidao.oss-cn-shanghai.aliyuncs.com/static_resources/docs/WX20190226-123204.png)
+
+    配置合法域名
+
+| 服务域名 |  网址|  
+| ------ | ------ |
+|  |https://www.iqidao.com   |
+|  |https://testing.iqidao.com  |
+|  |https://test.iqidao.com  |
+|request合法域名  |https://entry.iqidao.com   |
+|  |https://router.polyv.net   |
+|  |https://hls.videocc.net   |
+|  |https://prtas.videocc.net   |
+| :star: | :star: |
+|  |https://www.iqidao.com   |
+|downloadFile合法域名  |https://testing.iqidao.com  |
+|  |https://test.iqidao.com  |
+|:star2:  | :star2:  |
+|  |https://www.iqidao.com   |
+|业务域名  |https://testing.iqidao.com  |
+|  |https://test.iqidao.com  |
+
+![开发设置](https://iqidao.oss-cn-shanghai.aliyuncs.com/static_resources/docs/WX20190226-123214.png)
 
 
 

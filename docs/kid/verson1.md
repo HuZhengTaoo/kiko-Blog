@@ -16,7 +16,9 @@
 |  设计  | 祥瑞  |
  
 ## 功能页截图
+    页面包括 ：登录 活动列表  个人主页  吃子总动员  视频列表
 
+![img](https://iqidao.oss-cn-shanghai.aliyuncs.com/static_resources/docs/WX20190227-180121.png)
 ## 版本功能说明
 
 ## 相关文档

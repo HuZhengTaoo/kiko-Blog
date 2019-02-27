@@ -39,3 +39,33 @@
 - regenerator-runtime(让小程序可以使用await/async)
     [使用简介](https://pluwen.com/archives/397)
 ## 后端接口说明
+
+### 获取用户token
+
+| API | METHOD | 
+| ------| ------ | 
+|/weixinmini/kid/signin/code|GET |
+
+- 请求所携带的参数
+
+| 参数名	| 类型 | 必填 | 备注 |
+| ------| ------ | ------ | ------ | 
+| js_code|string |true| js_code是通过调用wx.login方法的返回值里获取 | 
+| phone |string |true| 用户手机号码| 
+| version |string |true| formal/commercial对应不同的appid(商用版本和正式版本)| 
+
+- 返回示例值
+
+```json
+{
+    "Status":0,
+    "Data":{
+        "iqidao_wxmini_token":"spwcqsu6ubl8lmu9mxevpx9qly69t2n4",
+        "wxmini_kid_openid":"oa8y45b01IDITyWx28xY781BlcBQ",
+        "wxmini_kid_unionid":"",
+        "wxmini_session_key":"zf31tAREjsjXdhg6kt9Xkg=="
+    }
+}
+```
+
+

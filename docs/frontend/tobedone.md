@@ -9,3 +9,7 @@
 - 小程序骨架屏方案
 - 小程序错误监测系统
 - 测试人员功能键的模块开发
+- webpack
+- 小程序路由拦截
+[link](https://www.jianshu.com/p/04dce2ffd68f)
+[link](https://segmentfault.com/a/1190000011044371)

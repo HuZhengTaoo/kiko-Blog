@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/HuZhengTaoo/kiko-Blog/issues"
   },
-  "homepage": "https://github.com/HuZhengTaoo/kiko-Blog#readme"
+  "homepage": "https://github.com/HuZhengTaoo/kiko-Blog#readme",
+  "dependencies": {
+    "global": "^4.4.0",
+    "vuepress": "^1.9.9"
+  }
 }

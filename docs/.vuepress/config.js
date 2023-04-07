@@ -16,7 +16,7 @@ module.exports = {
         activeHeaderLinks: true,
                
         nav: [
-          { text:'微信小程序简介',link:'/weapp/'},
+          { text:'日常api深入学习',link:'/deep-learn-api/'},
           { text:'前端开发',link:'/frontend/'},
           { text: '其他人员须知', link: '/articles/' },
           { text: '项目汇总', items:[
@@ -26,7 +26,7 @@ module.exports = {
           },
           { text: '其他链接', items:[
             {
-              text:'vant-weapp',link:'https://youzan.github.io/vant-weapp/#/intro'
+              text:'珠峰架构',link:'http://zhufengpeixun.com/strong/index.html'
             },
             {
               text:'慕课实战视频',link:"https://coding.imooc.com/learn/list/251.html"
@@ -36,8 +36,16 @@ module.exports = {
          
         ],
         sidebar: {
-          '/weapp/':[
-            ['','小程序的介绍']
+          '/deep-learn-api/':[
+              {
+                title:'目录',
+                collapsable: false,
+                children:[
+                  '',
+                  'axios',
+                  'promise',
+                ]
+              }
           ],
           '/frontend/':genSidebarConfig (),
           '/kid/':[
